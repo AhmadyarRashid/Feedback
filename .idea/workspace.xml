@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f054fa12-979f-4e04-aa59-f2bc2f62bc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/amazing.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/amazing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bad.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/good.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/good.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hated.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/hated.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/feedback/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/feedback/feedback.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/feedback/feedbackCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/feedback/feedbackCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/feedback/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/feedback/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +54,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -86,11 +92,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594109093108</updated>
-      <workItem from="1594109096790" duration="2167000" />
+      <workItem from="1594109096790" duration="3086000" />
+      <workItem from="1594134012158" duration="5998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="74" key="search.everywhere.popup" timestamp="1594134786425">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="305" y="74" key="search.everywhere.popup/0.23.1280.727@0.23.1280.727" timestamp="1594134786425" />
   </component>
 </project>
