@@ -17,6 +17,17 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  changeRatingBtn:{
+    width: '100%',
+    height: 55,
+    color: Color.white
+  },
+  submitBtn:{
+    width: '100%',
+    backgroundColor: Color.white,
+    height: 55,
+    color: Color.lightgray
+  }
 }));
 
 export default function FeedbackForm(props) {
@@ -111,14 +122,15 @@ export default function FeedbackForm(props) {
           <Grid item xs={6}>
             <Button
                 variant="outlined"
-                style={{width: '100%', height: 55, color: Color.white}}
+                className={classes.changeRatingBtn}
                 onClick={() => props.onResetRating()}
             >Change Rating</Button>
           </Grid>
           <Grid item xs={6}>
             <Button
                 variant="contained"
-                style={{width: '100%', backgroundColor: Color.white, height: 55, color: Color.lightgray}}>Submit</Button>
+                className={classes.submitBtn}
+            >Submit</Button>
           </Grid>
         </Grid>
       </div>

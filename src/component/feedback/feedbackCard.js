@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "@lottiefiles/lottie-player";
+import {url} from '../../constant/variables';
 import './feedback.css';
 
 const FeedbackCard = ({rating}) => {
@@ -34,7 +35,7 @@ const FeedbackCard = ({rating}) => {
             className={`circle_${inner} clickme_${inner} color_${rating}_bg`}>
           <div className="emoji-reaction" id={`emoji_${inner}`}>
             <lottie-player
-                src={"http://localhost:3000/img/" + rating + ".json"}
+                src={url + "/img/" + rating + ".json"}
                 background="transparent"
                 speed="0.3"
                 style={{width: "70px", height: "70px"}}

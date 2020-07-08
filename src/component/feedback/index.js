@@ -42,16 +42,16 @@ export default function Index(props) {
                         <p>&nbsp;</p>
 
                         <Grid container spacing={3}>
-                          <Grid onClick={e => onCategoryHandler('amazing', Color.lite_amazing)} item xs={3}>
+                          <Grid onClick={e => onCategoryHandler('amazing', Color.lite_amazing)} item xs={12} sm={6} md={3}>
                             <Card rating="amazing"/>
                           </Grid>
-                          <Grid onClick={e => onCategoryHandler('good', Color.lite_good)} item xs={3}>
+                          <Grid onClick={e => onCategoryHandler('good', Color.lite_good)} item xs={12} sm={6} md={3}>
                             <Card rating="good"/>
                           </Grid>
-                          <Grid onClick={e => onCategoryHandler('bad', Color.lite_bad)}  item xs={3}>
+                          <Grid onClick={e => onCategoryHandler('bad', Color.lite_bad)}  item xs={12} sm={6} md={3}>
                             <Card rating="bad"/>
                           </Grid>
-                          <Grid onClick={e => onCategoryHandler('hated', Color.lite_hated)} item xs={3}>
+                          <Grid onClick={e => onCategoryHandler('hated', Color.lite_hated)} item xs={12} sm={6} md={3}>
                             <Card rating="hated"/>
                           </Grid>
                         </Grid>
